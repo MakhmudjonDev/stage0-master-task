@@ -4,7 +4,7 @@ public class HalfPyramid {
 
     public void printHalfPyramid(int cathetusLength) {
         if (cathetusLength <= 0) {
-            System.out.println("Please enter a positive integer for cathetus length.");
+            System.out.println();
 
         } else {
             for (int i = 1; i <= cathetusLength; i++) {

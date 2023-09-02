@@ -4,7 +4,7 @@ public class DaysInMonth {
 
     public void printDays(int year, int month) {
         if (year < 0 || month < 1 || month > 12) {
-            System.out.println("Invalid date");
+            System.out.println("invalid date");
 
         } else{
             boolean isLeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
@@ -26,7 +26,7 @@ public class DaysInMonth {
 
             int days = daysInMonth[month - 1]; // Subtract 1 because array is 0-based
 
-            System.out.println("Number of days in month " + month + " of year " + year + ": " + days);
+            System.out.println(days);
         }
 
 

@@ -12,7 +12,7 @@ public class Animal {
     }
 
     public String getDescription() {
-        return "This animal is mostly %s.It has %d %s and %s fur".formatted(color, numberOfPaws, numberOfPaws > 1 ? "paws" : "paw", hasFur ? "a" : "no");
+        return "This animal is mostly %s. It has %d %s and %s fur.".formatted(color, numberOfPaws, numberOfPaws > 1 ? "paws" : "paw", hasFur ? "a" : "no");
     }
 
     public static void main(String[] args) {
